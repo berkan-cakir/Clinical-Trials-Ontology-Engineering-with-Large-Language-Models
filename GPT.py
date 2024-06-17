@@ -460,7 +460,7 @@ totalPromptTokenCost = 0
 totalCompletionTokenCost = 0
 totalTokenCost = 0
 #import clinical trails from CSV
-clinicalTrails = getClinicalTrails()[1:52]
+clinicalTrails = getClinicalTrails()[1:51]
 
 #get either ontology as a whole or the information of interest (biomarkers, etc.) and create an ontology for it per clinical trail
 #Note to keep in mind prompt engineering, prompt chainging, function calling
